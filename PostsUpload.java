@@ -87,7 +87,7 @@ public class PostsUpload {
 		        //Tamar id = 5ad67241efb8c09508513e53
 		        //angry bird = 5a852c55dc3f66c2e35abaf5
 		        
-			    String url="http://document-service.meltwater.net:8080/documents/5ad67241efb8c09508513e53/editorial";
+			    String url="https://mi.content.fairhair.ai/v1/document/59e45f8ab781b0d337e39ad5/editorial/?apikey=nPVNxBKKydZKaEGwhZfGGdTXtRxXnTZ4";
 			    
 			    String[] command = {"curl", "-X", "POST", "--header","Content-Type:application/json","--header","Accept: application/json","-d", "@"+PostsUpload.rootPath+"/mLifeUploads/test.json", "charset=UTF-8",url };
 			    
